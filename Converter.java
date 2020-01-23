@@ -18,6 +18,11 @@ public class Converter {
 		result = (F-32)*(5.0/9.0);
 		return result;
 	}
+	private static double kilometeresToMiles(double k) {
+		double mile;
+		mile = k*0.621;
+		return mile;
+	}
 	public static void main(String[] args) {
 		System.out.println("180 Celsius is "+ celsiusToFahrenheit(180.0)+" Degrees Farenheit");
 		System.out.println("250 Farenheit is "+ fahrenheitToCelsius(250.0)+" Degrees Celsius");
