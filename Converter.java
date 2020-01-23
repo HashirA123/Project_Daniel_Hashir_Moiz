@@ -1,10 +1,7 @@
 package First;
 
 public class Converter {
-<<<<<<< HEAD
-	//This is the development branch
-=======
->>>>>>> feat
+	
 	/*
 	* @Author: 
 	* Daniel Long
