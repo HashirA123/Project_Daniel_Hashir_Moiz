@@ -26,6 +26,6 @@ public class Converter {
 	public static void main(String[] args) {
 		System.out.println("180 Celsius is "+ celsiusToFahrenheit(180.0)+" Degrees Farenheit");
 		System.out.println("250 Farenheit is "+ fahrenheitToCelsius(250.0)+" Degrees Celsius");
-		
+		System.out.println("30 Kilometers is " + kilometeresToMiles(30)+" Miles");
 	}
 }
